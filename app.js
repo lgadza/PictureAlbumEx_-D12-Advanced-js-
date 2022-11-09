@@ -27,7 +27,7 @@ const getImages = () => {
         // let picture = pictures[i];
         // console.log(picture);
         const image = document.createElement("img");
-        image.classList = "col-12 placeholder-img card-img-top img-fluid";
+        image.classList = "col-12  w- 100 card-img-top img-fluid p-0";
         image.src = pictures[i].src.landscape;
         console.log(image);
 
